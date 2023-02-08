@@ -1,0 +1,24 @@
+{
+    "app": {
+        "baseUri": "BASE_URI",
+        "appId": "MICROSOFT_APP_ID",
+        "instrumentationKey": "APPINSIGHTS_INSTRUMENTATIONKEY"
+    },
+    "bot": {
+        "appId": "MICROSOFT_APP_ID",
+        "appPassword": "MICROSOFT_APP_PASSWORD"
+    },
+    "powerBI": {
+        "authenticationMode": "servicePrincipal",
+        "authorityUrl": "https://login.microsoftonline.com/",
+        "scopeBase": "https://analysis.windows.net/powerbi/api/.default",
+        "powerBiApiUrl": "https://api.powerbi.com/",
+        "clientId": "",
+        "workspaceId": "",
+        "reportId": "",
+        "pbiUsername": "",
+        "pbiPassword": "",
+        "clientSecret": "",
+        "tenantId": ""
+    }
+}
